@@ -18,42 +18,52 @@
         </ul>
     </nav>
 </div>
-		<h2>My Cooking</h2>
-		<p>Having a good meal can change my day.  I learned most of the recipes from my mom (she is a really good cook!).  Most of them are Southern Chinese cuisine.  Some of them are 'Hong Kong Style'.  They are easy to make, very delicious and authentic.  Give it a try!</p>
+		<h2>My Gallery</h2>
 </div>
+<div class="filter">
+<div> <span>Filter photos by categories: </span> 
+<a href="#" class="sortLink selected" data-category="all">All</a> 
+<a href="#" class="sortLink" data-category="Architecture">Architecture</a> 
+<a href="#" class="sortLink" data-category="Wilderness">Wilderness</a>
+<a href="#" class="sortLink" data-category="">Wildlife</a>
+<div class="clear_floats"></div>
+</div>
+</div>
+
 <div class="gallerywrap">
  <div class="gallery">
       <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/hsbc_thumbnail.jpg">
+        <img class="thumbnail" src="images/architecture/hsbc_thumbnail.jpg" data-categories="Architecture">
       </figure>
       <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/UMass_thumbnail.jpg">
+        <img class="thumbnail" src="images/architecture/UMass_thumbnail.jpg" data-categories="Architecture">
       </figure>
       <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/china_thumbnail.jpg">
+        <img class="thumbnail" src="images/architecture/china_thumbnail.jpg" data-categories="Architecture">
       </figure>
 	  	   <figure class="gallery-item">
-        <img class="thumbnail" src="images/wilderness/quebec_thumbnail.jpg">
+        <img class="thumbnail" src="images/wilderness/quebec_thumbnail.jpg" data-categories="Wilderness">
       </figure>
 	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/cowboy_thumbnail.jpg">
+        <img class="thumbnail" src="images/architecture/cowboy_thumbnail.jpg" data-categories="architecture">
       </figure>
 	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wilderness/halibutpoint_thumbnail.jpg">
+        <img class="thumbnail" src="images/wilderness/halibutpoint_thumbnail.jpg" data-categories="wilderness">
       </figure>
 	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wildlife/croc_thumbnail.jpg">
+        <img class="thumbnail" src="images/wildlife/croc_thumbnail.jpg" data-categories="wildlife">
       </figure>
 	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wildlife/eagles_thumbnail.jpg">
+        <img class="thumbnail" src="images/wildlife/eagles_thumbnail.jpg" data-categories="wildlife">
       </figure>
 	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wildlife/dragonfly_thumbnail.jpg">
+        <img class="thumbnail" src="images/wildlife/dragonfly_thumbnail.jpg" data-categories="wildlife">
       </figure>
 
     </div>
 </div>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/gallery.js"></script>
 
 <div class="social_icon">
   <a href="https://www.facebook.com/chuimimi"><img src="./images/FB.jpg" width="50"/></a>
