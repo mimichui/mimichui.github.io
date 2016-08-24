@@ -3,6 +3,33 @@
 <title>Mimi Chui Hanaka</title>
 <meta name="viewport" content="width=device-width" content="initial-scale=1">
 <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixItUp({
+  				selectors: {
+    			  target: '.portfolio',
+    			  filter: '.filter'	
+    		  },
+    		  load: {
+      		  filter: '.app'  
+      		}     
+				});								
+			}
+		};
+		filterList.init();
+	});	
+	</script>
 </head>
 <body>
   <h1>Mimi Chui Hanaka</h1>
@@ -20,50 +47,169 @@
 </div>
 		<h2>My Gallery</h2>
 </div>
-<div class="filter">
-<div> <span>Filter photos by categories: </span> 
-<a href="#" class="sortLink selected" data-category="all">All</a> 
-<a href="#" class="sortLink" data-category="Architecture">Architecture</a> 
-<a href="#" class="sortLink" data-category="Wilderness">Wilderness</a>
-<a href="#" class="sortLink" data-category="">Wildlife</a>
-<div class="clear_floats"></div>
-</div>
-</div>
 
-<div class="gallerywrap">
- <div class="gallery">
-      <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/hsbc_thumbnail.jpg" data-categories="Architecture">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/UMass_thumbnail.jpg" data-categories="Architecture">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/china_thumbnail.jpg" data-categories="Architecture">
-      </figure>
-	  	   <figure class="gallery-item">
-        <img class="thumbnail" src="images/wilderness/quebec_thumbnail.jpg" data-categories="Wilderness">
-      </figure>
-	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/architecture/cowboy_thumbnail.jpg" data-categories="architecture">
-      </figure>
-	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wilderness/halibutpoint_thumbnail.jpg" data-categories="wilderness">
-      </figure>
-	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wildlife/croc_thumbnail.jpg" data-categories="wildlife">
-      </figure>
-	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wildlife/eagles_thumbnail.jpg" data-categories="wildlife">
-      </figure>
-	  <figure class="gallery-item">
-        <img class="thumbnail" src="images/wildlife/dragonfly_thumbnail.jpg" data-categories="wildlife">
-      </figure>
+	<div class="gallery_container">
 
-    </div>
-</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/gallery.js"></script>
+		<ul id="filters" class="clearfix">
+			<li><span class="filter active" data-filter=".app, .card, .icon, .logo">All</span></li>
+			<li><span class="filter" data-filter=".app">Architecture</span></li>
+			<li><span class="filter" data-filter=".card">Wilderness</span></li>
+			<li><span class="filter" data-filter=".icon">Wildlife</span></li>
+			<li><span class="filter" data-filter=".logo">Other</span></li>
+			
+		</ul>
+
+		<div id="portfoliolist">
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="./images/wildlife/eagles_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Eagles</a>
+							<span class="text-category">Wichita</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+																		
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">
+					<img src="./images/architecture/HSBC_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">HSBC building</a>
+							<span class="text-category">New York</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<img src="./images/architecture/Umass_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">UMass Boston</a>
+							<span class="text-category">Boston</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>			
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">				
+					<img src="./images/Others/china_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Dinghu</a>
+							<span class="text-category">Zhaoqiang, China</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="images/Wilderness/dandelion_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Dandelions</a>
+							<span class="text-category">Maine</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="./images/wilderness/HalibutPoint_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Halibut Point State Park</a>
+							<span class="text-category">Massachusetts</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="./images/wilderness/quebec_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Quebec City</a>
+							<span class="text-category">Canada</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="./images/Others/icehotel_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Ice Hotel</a>
+							<span class="text-category">Quebec City, Canada</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																																							
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<img src="./images/architecture/SF_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Palace of Fine Arts</a>
+							<span class="text-category">San Francisco</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>														
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<img src="./images/architecture/cowboy_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Old Cowtown Museum</a>
+							<span class="text-category">Wichita</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="./images/wildlife/croc_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Crocodile</a>
+							<span class="text-category">Miami</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>							
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">
+					<img src="./images/wildlife/dragonfly_thumbnail.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Dragonfly</a>
+							<span class="text-category">New Hampshire</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																																																																
+
+		</div>
+		
+	</div><!-- container -->
+
 
 <div class="social_icon">
   <a href="https://www.facebook.com/chuimimi"><img src="./images/FB.jpg" width="50"/></a>
