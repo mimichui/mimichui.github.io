@@ -4,16 +4,18 @@
 <link rel="stylesheet" type="text/css" href="./css/main.css"/>
 </head>
 <body>
-<h1>Mimi Chui Hanaka</h1>
+  <h1>Mimi Chui Hanaka</h1>
 <div class="top_nav">
-<ul>
-<li><a href="index.html">ABOUT</a></li>
-<li><a href="#">TRAVEL</a></li>
-<li><a href="#">HIKING</a></li>
-<li><a href="#">COOKING</a></li>
-<li><a href="gallery.html">GALLERY</a></li>
-<li><a href="#">CONTACT US</a></li>
-</ul>
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="./index.html">ABOUT</a></li>
+            <li><a href="#">TRAVEL</a></li>
+            <li><a href="#">HIKING</a></li>
+            <li><a href="#">COOKING</a></li>
+            <li><a href="./gallery.html">GALLERY</a></li>
+            <li><a href="./contactus.html">CONTACT</a></li>
+        </ul>
+    </nav>
 </div>
 
 <p>Thank you for your message.
