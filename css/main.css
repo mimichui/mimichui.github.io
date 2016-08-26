@@ -110,7 +110,7 @@ margin:10px;
   float:left;
   width:49%;
   margin-top: -10px;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-right: 30px;
 }
 .slide-copy h1 {
@@ -118,7 +118,7 @@ margin:10px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 25px;
 }
 
@@ -136,7 +136,7 @@ margin:10px;
   font-family: Arial, "Times New Roman", serif;
   font-size: 1.15em;
   line-height: 1.75em;
-  margin-top: 30px;
+  margin-top: 25px;
   text-align:left;
 }
 
@@ -199,7 +199,7 @@ p {
 	margin-top: 5px;
 }
 h2 {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 22px; margin: 30px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 22px; margin: 40px;
 }
 
 
@@ -562,7 +562,6 @@ html {
 			top:0;
 			left:0;
 		}
-	
 		.portfolio .label-text {
 			color:#fff;
 			position: relative;
