@@ -3,19 +3,39 @@
 <title>Mimi Chui Hanaka</title>
 <meta name="viewport" content="width=device-width" content="initial-scale=1">
 <link rel="stylesheet" type="text/css" href="./css/main.css"/>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
-	
+		
 	<script type="text/javascript">
-	var $grid = $('.grid').isotope({
-  // options
-});
-// filter items on button click
-$('.filter-button-group').on( 'click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixItUp({
+  				selectors: {
+    			  target: '.portfolio',
+    			  filter: '.filter'	
+    		  },
+    		  load: {
+      		  filter: '.app'  
+      		}     
+				});								
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
 	</script>
+	
 </head>
 <body>
  <h1>Mimi Chui Hanaka</h1>
@@ -34,13 +54,16 @@ $('.filter-button-group').on( 'click', 'button', function() {
 
 <h2>My Gallery</h2> 
 	<div class="gallery_container">
-		<div class="button-group filter-button-group">
-  <button data-filter="*">show all</button>
-  <button data-filter=".app">Architecture</button>
-  <button data-filter=".icon">Wildlife</button>
-  <button data-filter=".card">Wildnerness</button>
-  <button data-filter=".logo">Others</button>
-</div>
+	<div class="container">
+
+		<ul id="filters" class="clearfix">
+			<li><span class="filter active" data-filter=".app, .card, .icon, .logo">All</span></li>
+			<li><span class="filter" data-filter=".app">Architecture</span></li>
+			<li><span class="filter" data-filter=".card">Wilderness</span></li>
+			<li><span class="filter" data-filter=".icon">Wildlife</span></li>
+			<li><span class="filter" data-filter=".logo">Other</span></li>
+			
+		</ul>
 
 		<div id="portfoliolist">
 			<div class="portfolio icon" data-cat="icon">
