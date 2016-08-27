@@ -7,27 +7,14 @@
 	<script type="text/javascript" src="./js/jquery.mixitup.min.js"></script>
 	
 	<script type="text/javascript">
-	$(function () {
-		
-		var filterList = {
-		
-			init: function () {
-			
-				// MixItUp plugin
-				// http://mixitup.io
-				$('#portfoliolist').mixItUp({
-  				selectors: {
-    			  target: '.portfolio',
-    			  filter: '.filter'	
-    		  },
-    		  load: {
-      		  filter: '.app'  
-      		}     
-				});								
-			}
-		};
-		filterList.init();
-	});	
+	var $grid = $('.grid').isotope({
+  // options
+});
+// filter items on button click
+$('.filter-button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
 	</script>
 </head>
 <body>
@@ -47,14 +34,13 @@
 
 <h2>My Gallery</h2> 
 	<div class="gallery_container">
-		<ul id="filters" class="clearfix">
-			<li><span class="filter active" data-filter=".app, .card, .icon, .logo">All</span></li>
-			<li><span class="filter" data-filter=".app">Architecture</span></li>
-			<li><span class="filter" data-filter=".card">Wilderness</span></li>
-			<li><span class="filter" data-filter=".icon">Wildlife</span></li>
-			<li><span class="filter" data-filter=".logo">Other</span></li>
-			
-		</ul>
+		<div class="button-group filter-button-group">
+  <button data-filter="*">show all</button>
+  <button data-filter=".app">Architecture</button>
+  <button data-filter=".icon">Wildlife</button>
+  <button data-filter=".card">Wildnerness</button>
+  <button data-filter=".logo">Others</button>
+</div>
 
 		<div id="portfoliolist">
 			<div class="portfolio icon" data-cat="icon">
