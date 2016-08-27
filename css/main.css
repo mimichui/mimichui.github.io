@@ -349,9 +349,9 @@ h1{
 }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
 h1{
-	font-size: 25px; 
+	font-size: 20px; 
 	color: #800000;
 	margin: 0px 0 0 0;
 	height: 40px;
@@ -362,7 +362,6 @@ h1{
     width:100%;  
 }
 .menu {
-    max-width:480px;
 	width:100%;
 }
  
