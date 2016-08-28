@@ -296,6 +296,11 @@ html {
 
 /* #Tablet (Portrait) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+.top_nav{
+	height:60px;
+	padding:5px;
+	
+}
 		
 .menu {
     max-width:959px;
@@ -312,6 +317,12 @@ html {
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
+	
+.top_nav{
+	height:80px;
+	padding:3px;
+	
+}
 	
 .menu {
     max-width:320px;
@@ -338,7 +349,11 @@ html {
 
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-		
+.top_nav{
+	height:80px;
+	padding:3px;
+	
+}
 .menu {
     max-width:767px;
 	width:100%;
