@@ -2,7 +2,10 @@ h1{
 	font-family: Calibri, arial, verdana; 
 	font-size: 30px; 
 	color: #800000;
-	margin: 0px 10px 10px 0;
+	margin: 0px 20px 10px 0;
+}
+h2 {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 22px; margin: 50px;
 }
 #header {
 	height: 10px;
@@ -76,8 +79,8 @@ h1{
 /* Carousel */
 
 .container {
-  width: 100%;
-margin:10px;
+width: 100%;
+margin:0px;
 }
 
 .slider {
@@ -188,293 +191,9 @@ p {
 	font-size: 20px;
 	margin: 30px;
 }
-.form {
-	width: 100%;
-	height:25%;
-	margin:0px;
-}
 
-.hero { 
-	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #ffffff; padding: 80px 0;
-	margin-top: 5px;
-}
-h2 {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 22px; margin: 40px;
-}
+//gallery page//
 
-
-@media only screen and (max-width: 1024px) {
-.menu {
-    max-width:1024px;
-	width:100%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    font-size:13px;
-}
- 
-.menu > ul > li > a {
-	padding:0px 40px;
-    
-}
-}
-
-@media only screen and (max-width: 767px) {
-h1{
-	font-size: 30px; 
-	color: #800000;
-	margin: 0px 0 0 0;
-	height: 40px;
-}
-#header {
-	margin-top: 25px;
-	height: 30px;
-    width:100%;  
-}
-
-.menu {
-    max-width:767px;
-	width:100%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    font-size:11px;
-}
- 
-.menu > ul > li > a {
-	padding:0px 32px;
-    
-}
-/* Carousel */
-
-.container {
-  width: 100%;
-  margin:10px;
-}
-
-.slider {
-  position: relative;
-  width: 100%;
-  height: 360px;
-  margin:10px;
-}
-
-.slide {
-  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
-  background-size: cover;
-  display: none;
-  position: absolute;
-  margin-top:10px;
-  margin-bottom:10px;
-  width: 100%;
-  height: 100%;
-}
-.slide-img right{
-	float:left;
-	margin-top:-25px;
-	padding:0px;
-	width:60%;
-}
-.active-slide {
-    display: block;
-}
-.slide-copy {
-  float:left;
-  width:30%;
-  margin-top: 5px;
-  margin-left: 30px;
-  margin-right: 15px;
-}
-.slide-copy h1 {
-  color: #363636;  
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-.slide-copy p {
-  color: #959595;
-  font-family: Arial, "Times New Roman", serif;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 5px;
-  text-align:left;
-}
-
-.slide-img right{
-	float:left;
-	margin-top:30px;
-	padding:10px;
-	width:40%;
-}
-.slider-nav {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.arrow-prev {
-  margin-right: 20px;
-  display: inline-block;
-  vertical-align: center;
-  margin-top: 9px;
-}
-
-.arrow-next {
-  margin-left: 20px;
-  display: inline-block;
-  vertical-align: center;
-  margin-top: 9px;
-}
-
-.slider-dots {
-  list-style: none;
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.slider-dots li {
-  color: #bbbcbc;
-  display: inline;
-  font-size: 20px;
-  margin-right: 5px;
-}
-
-.slider-dots li.active-dot {
-  color: #363636;
-}
-}
-
-@media only screen and (max-width: 400px) {
-h1{
-	font-size: 20px; 
-	color: #800000;
-	margin: 0px 0 0 0;
-	height: 40px;
-}
-#header {
-	margin-top: 25px;
-	height: 50px;
-    width:100%;  
-}
-.menu {
-	width:100%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    font-size:10px;
-}
- 
-.menu > ul > li > a {
-	padding:0px 0px;
-    
-}
-/* Carousel */
-
-.container {
-	max-width: 400px;
-  width: 100%;
-margin:5px;
-}
-
-.slider {
-  position: relative;
-  max-width: 400px;
-  width: 100%;
-  height: 500px;
-  margin:0px;
-}
-
-.slide {
-  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
-  background-size: cover;
-  display: none;
-  position: absolute;
-  margin-top:0px;
-  margin-bottom:0px;
-  width: 100%;
-  height: 100%;
-}
-
-.active-slide {
-    display: block;
-	max-width: 400px;
-	width: 100%;
-}
-.slide-copy {
-  float:none;
-  max-width: 300px;
-  width:100%;
-  margin-top: 5px;
-  margin-left: 10px;
-  margin-right: 15px;
-}
-.slide-copy h1 {
-  color: #363636;  
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
-.slide-copy p {
-  color: #959595;
-  font-family: Arial, "Times New Roman", serif;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 5px;
-  text-align:left;
-}
-
-.slide-img right{
-	float:left;
-	margin-left:10px;
-	padding:5px;
-	max-width: 250px;
-	width:100%;
-}
-.slider-nav {
-  text-align: center;
-  margin-top: 5px;
-}
-
-.arrow-prev {
-  margin-right: 15px;
-  display: inline-block;
-  vertical-align: center;
-  margin-top: 5px;
-}
-
-.arrow-next {
-  margin-left: 15px;
-  display: inline-block;
-  vertical-align: center;
-  margin-top: 9px;
-}
-
-.slider-dots {
-  list-style: none;
-  display: inline-block;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.slider-dots li {
-  color: #bbbcbc;
-  display: inline;
-  font-size: 20px;
-  margin-right: 5px;
-}
-
-.slider-dots li.active-dot {
-  color: #363636;
-}
 }
 html {
   overflow-y: scroll;
@@ -485,7 +204,6 @@ html {
 	width:1280px;
 	max-width: 100%;
 	margin: 0 auto;
-
 }
  
 #filters {
@@ -512,9 +230,7 @@ html {
 		background: #e95a44;
 		color:#fff;
 	}
- 
-
- 
+  
 #portfoliolist .portfolio {
 	width:25%;
 	margin:0%;
@@ -574,18 +290,6 @@ html {
     top:-30px;
   }  
 
-	
-
-
-
-/* #Tablet (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.container {
-		width: 768px; 
-	}
-}
-
-
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
 	.container { 
@@ -601,7 +305,29 @@ html {
 		display:none;
 	}
 	
+h1{
+	font-family: Calibri, arial, verdana; 
+	font-size: 20px; 
+	color: #800000;
+	margin: 0px 10px 5px 0;
 }
+h2 {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 15px; margin: 35px;
+}
+#header {
+	height: 8px;
+    width:100%;  
+}
+
+
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container {
+		width: 768px; 
+	}
+}
+
+
 
 
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
