@@ -290,34 +290,8 @@ html {
     top:-30px;
   }  
 
-/*  #Mobile (Portrait) - Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-	.container { 
-		width: 100%; 
-	}
 	
-	#portfoliolist .portfolio {
-		width:80%;
-		margin:1%;
-	}		
 
-	#ads {
-		display:none;
-	}
-	
-h1{
-	font-family: Calibri, arial, verdana; 
-	font-size: 20px; 
-	color: #800000;
-	margin: 0px 10px 5px 0;
-}
-h2 {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 15px; margin: 35px;
-}
-#header {
-	height: 8px;
-    width:100%;  
-}
 
 
 /* #Tablet (Portrait) */
@@ -328,6 +302,22 @@ h2 {
 }
 
 
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	.container { 
+		width: 95%; 
+	}
+	
+	#portfoliolist .portfolio {
+		width:48%;
+		margin:1%;
+	}		
+
+	#ads {
+		display:none;
+	}
+	
+}
 
 
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
