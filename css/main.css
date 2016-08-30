@@ -280,7 +280,7 @@ html {
 	
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
 .slider {
   position: relative;
   width: 100%;
@@ -290,7 +290,7 @@ html {
 
 .slide-copy {
   float:none;
-  max-width: 320px;
+  max-width: 380px;
   width:100%;
   margin-top: -10px;
   margin-left: 10px;
@@ -319,8 +319,8 @@ html {
 	float:none;
 	margin-top:1%;
 	margin-left: 10%;
-	max-width: 320px;
-	width:10%;
+	max-width: 380px;
+	width:100%;
 }
 }
 
