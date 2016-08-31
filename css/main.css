@@ -98,6 +98,8 @@ h2 {
 }
 .active-slide {
     display: block;
+	max-width: 1280px;
+	width: 100%;
 }
 .slide-copy {
   float:left;
