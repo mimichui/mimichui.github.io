@@ -284,17 +284,17 @@ html {
 .slider {
   position: relative;
   width: 100%;
-  min-height: 450px;
-  margin:5px;
+  min-height: 480px;
+  margin:0px;
 }
 
 .slide-copy {
   float:none;
   max-width: 380px;
   width:100%;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 0px;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .slide-copy h1 {
@@ -302,8 +302,8 @@ html {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  margin-top: -30px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 .slide-copy p {
@@ -318,9 +318,9 @@ html {
 .slide-img right{
 	display:none;
 	margin-top:30px;
-	margin-left: 130px;
-	max-width: 600px;
-	width:40%;
+	margin-left: 0px;
+	max-width: 280px;
+	width:100%;
 }
 }
 
