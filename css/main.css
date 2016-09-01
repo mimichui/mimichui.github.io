@@ -278,96 +278,52 @@ html {
 	
 }
 
-
 @media only screen and (max-width: 767px) {
 	
 }
 
 @media only screen and (max-width: 767px) {
-.slider {
-  position: relative;
-  max-width: 767px;
-  width: 100%;
-  min-height: 450px;
-  margin:20px 0px;
-}
-.slide {
-  margin: 25px 0px;
-  width: 100%;
-  min-height: 450px;
-  height: 100%;
-}
-.slide-copy {
-  float:left;
-  max-width: 767px;
-  width: 100%;
-  margin-top: -40px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
-.active-slide {
-    display: block;
-	max-width: 767px;
-	width: 100%;
-}
-.slide-copy h1 {
-  color: #363636;  
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  margin-top: 5px;
-  margin-left: 30px;
-}
-
-.slide-copy p {
-  color: #959595;
-  font-family: Arial, "Times New Roman", serif;
-  font-size: 12px;
-  line-height: 1.75em;
-  margin-top: 15px;
-  text-align:left;
-}
-
-.slide-img right{
-	float:right;
-	width:100%;
-}
 @media only screen and (max-width: 380px) {
 .slider {
   position: relative;
   max-width: 320px;
   width: 100%;
-  min-height: 450px;
-  margin:20px 0px;
+  min-height: 480px;
+  height: 100%
+  margin:0px 0px;
 }
+
 .slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
   margin: 25px 0px;
   width: 100%;
-  min-height: 450px;
   height: 100%;
+}
+.active-slide {
+    display: block;
+	max-width: 320px;
+	width: 100%;
 }
 .slide-copy {
   float:left;
-  max-width: 380px;
-  width: 100%;
-  margin-top: -40px;
+  max-width: 320px;
+  width:100%;
+  margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-.active-slide {
-    display: block;
-	max-width: 380px;
-	width: 100%;
 }
 .slide-copy h1 {
   color: #363636;  
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  margin-top: 5px;
-  margin-left: 30px;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: 25px;
 }
 
 .slide-copy p {
@@ -375,13 +331,8 @@ html {
   font-family: Arial, "Times New Roman", serif;
   font-size: 12px;
   line-height: 1.75em;
-  margin-top: 15px;
+  margin-top: 5px;
   text-align:left;
-}
-
-.slide-img right{
-	float:right;
-	width:100%;
 }
 }
 
