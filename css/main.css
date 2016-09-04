@@ -81,10 +81,10 @@ h2 {
 
 .slider {
   position: relative;
-  max-width: 1300px;
+  max-width: 1280px;
   width: 100%;
   height: 300px;
-  margin:20px 0px;
+  margin:0px 0px;
 }
 
 .slide {
@@ -113,7 +113,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 25px;
 }
 
@@ -122,15 +122,14 @@ h2 {
   font-family: Arial, "Times New Roman", serif;
   font-size: 16px;
   line-height: 1.75em;
-  margin-top: 25px;
+  margin-top: 35px;
   text-align:left;
 }
 
 .slide-img right{
 	float:right;
-	margin-top:80px;
 	margin-left: 130px;
-	max-width: 600px;
+	max-width: 580px;
 	width:40%;
 }
 .slider-nav {
@@ -289,13 +288,13 @@ html {
   position: relative;
   max-width: 320px;
   width: 100%;
-  min-height: 480px;
-  height: 100%
-  margin:0px 0px;
+  min-height: 430px;
+  height: 100%;
+  margin: 0px 0px;
+ 
 }
-
 .slide {
- background-size: cover;
+  background-size: cover;
   display: none;
   position: absolute;
   margin: 25px 0px;
@@ -311,17 +310,15 @@ html {
   float:left;
   max-width: 320px;
   width:100%;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px 5px 0px;
 }
 .slide-copy h1 {
   color: #363636;  
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  margin-top: -10px;
-  margin-left: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .slide-copy p {
@@ -329,15 +326,25 @@ html {
   font-family: Arial, "Times New Roman", serif;
   font-size: 12px;
   line-height: 1.75em;
-  margin-top: 5px;
+  margin: 5px 10px 5px 0px;
   text-align:left;
 }
+
+.slide-img right{
+	float:right;
+	margin-top:80px;
+	margin-left: 130px;
+	max-width: 320px;
+	width:100%;
+}
+
 }
 
 /* #Clearing */
 
 /* Self Clearing Goodness */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.slider:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .clearfix:before,
 .clearfix:after,
