@@ -282,7 +282,62 @@ html {
 
 @media only screen and (max-width: 767px) {
 }
+@media only screen and (max-width: 640px) {
+.slider {
+  position: relative;
+  max-width: 640px;
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+  margin: 0px 0px;
+ 
+}
+.slide {
+  background-size: cover;
+  display: none;
+  position: absolute;
+  margin: 25px 0px;
+  width: 100%;
+  height: 100%;
+}
+.active-slide {
+    display: block;
+	max-width: 640px;
+	width: 100%;
+}
+.slide-copy {
+  float:left;
+  max-width: 250px;
+  width:50%;
+  margin: 0px 5px 0px;
+}
+.slide-copy h1 {
+  color: #363636;  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
 
+.slide-copy p {
+  color: #959595;
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 1.75em;
+  margin: 5px 10px 5px 0px;
+  text-align:left;
+}
+
+.slide-img right{
+	float:right;
+	margin-top:80px;
+	margin-left: 0px;
+	max-width: 180px;
+	width:40%;
+}
+
+}
 @media only screen and (max-width: 380px) {
 .slider {
   position: relative;
@@ -309,14 +364,14 @@ html {
 .slide-copy {
   float:left;
   max-width: 320px;
-  width:100%;
+  width:50%;
   margin: 0px 5px 0px;
 }
 .slide-copy h1 {
   color: #363636;  
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0px;
   margin-left: 0px;
 }
@@ -324,7 +379,7 @@ html {
 .slide-copy p {
   color: #959595;
   font-family: Arial, "Times New Roman", serif;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.75em;
   margin: 5px 10px 5px 0px;
   text-align:left;
