@@ -481,7 +481,7 @@ iframe {
 .menu {
     max-width:380px;
 	width:100%;
-    margin: -8px 0px 0px 0px;
+    margin: -7px 0px 0px -5px;
 }
 .menu > ul > li {
     float:center;
