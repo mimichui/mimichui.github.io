@@ -299,6 +299,7 @@ iframe {
 .menu {
     max-width:1024px;
 	width:100%;
+	margin: -3px 0px 0px 0px;
 }
 .menu > ul > li {
     float:center;
@@ -384,9 +385,11 @@ iframe {
 	padding:2px;
 	background-color:#000000;
 }
+
 .menu {
     max-width:640px;
 	width:100%;
+	margin: -5px 0px 0px 0px;
 }
 .menu > ul > li {
     float:center;
@@ -478,7 +481,7 @@ iframe {
 .menu {
     max-width:380px;
 	width:100%;
-    margin:0px 0px 0px 0px;
+    margin: -8px 0px 0px 0px;
 }
 .menu > ul > li {
     float:center;
