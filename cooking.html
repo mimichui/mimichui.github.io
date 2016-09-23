@@ -6,6 +6,9 @@
 </head>
 <body>
  <h1>Mimi Chui Hanaka</h1>
+ <div class="topright">
+ <button onclick="document.getElementById('id01').style.display='block'">Log in</button>
+ </div>
 <div class="top_nav">
     <nav class="menu">
         <ul class="clearfix">
@@ -14,6 +17,7 @@
             <li><a href="./cooking.html">COOKING</a></li>
             <li><a href="./gallery.html">GALLERY</a></li>
             <li><a href="./contactus.html">CONTACT</a></li>
+			
         </ul>
     </nav>
 </div>
@@ -21,62 +25,67 @@
 
 </div>
 	<div class="container">
-		<h2>After a long day from work, it is important to have a good meal for the family.  These recipes are mostly Traditional Cantonese dishes.  They are quick, easy and delicious. 
+		<h2>After a long day from work, it is important to have a good meal for the family.  These recipes are mostly traditional Cantonese dishes.  They are quick, easy and delicious. 
 </h2>
-
 <div>
-<h2>Steamed beef with preserved pickles</h2>
+<p><b>Stir fry beef with green pepper and onion</b></p>
 <p>Ingredients:<br>
+8oz. rib eye (cut into 2-inch stripes)<br>
+1/2 green pepper (sliced)<br>
+1/2 yellow onion (sliced)<br>
 <br>
-1 pack - Preserved pickles (mix with 3 TSP of peanut oil)<br>
-1/2 pound - beef (rib eye, sliced)<br>
-<br>
-Beef Marinade:<br>
-<br>
-1 TSP - sugar<br>
-1 1/2 TBSP - soy sauce<br>
-1 TSP - corn starch<br>
-Peanut oil - splash<br>
+Marinade:<br>
+1 TBSP light soy sauce<br>
+1 TBSP sugar<br>
+1 TSP salt<br>
+1/2 TSP pepper<br>
+2 TSP rice wine<br>
+2 TSP cornstarch<br>
+2 TBSP water<br>
+2 TBSP peanut oil<br>
 <br>
 Instructions:<br>
-<br>
-1.	Marinade the beef for 15 minutes<br>
-2.	Mix beef and preserved pickles<br>
-3.	Steam for 10 minutes on high heat<br>
-</div>
-<div>
-    <p>Comments:
-	<textarea name="" rows="1" cols="30"></textarea></p>
-	<p><button>Submit</button></p>
-	</div>
-<div>
-<h2>Borsch Soup</h2>
-<p>Ingredients:<br>
-<br>
-2 - tomatoes (diced)<br>
-2 - Yukon gold potatoes<br>
-1 - yellow onion (large)<br>
-3 - carrot (small)<br>
-1/4 pound - beef shank<br>
-1/2 - cabbage<br>
-1 can (8oz) - tomato paste<br>
-8 quarts - water<br>
-<br>
-Instructions:<br>
-<br>
-1.	Boil water in a large pot on high heat<br>
-2.	Put all ingredients, turn the heat to medium-high, cook for 1 1/2 hours<br>
-3.	Put salt to taste<br>
+1.	Mix beef with marinade for overnight<br>
+2.	Heat 2 TBSP olive oil in a pan and stir fry green pepper and onion for 3 minutes.  Remove and set aside.<br>
+3.	Heat the remaining oil in the pan, add marinates beef and stir till it turns brown (1 minute or 2).<br>
+4.	Put vegetables back to the pan and stir for 30 seconds.<br>
 </p>
 </div>
-<div>
-    <p>Comments:
-	<textarea name="" rows="1" cols="30"></textarea></p>
-	<p><button>Submit</button></p>
-	</div>
-<div>
+
+<h2>If you would like to view all my recipes, please <br>
+ <button onclick="document.getElementById('id01').style.display='block'">Log in</button></h2>
+
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="contactus.php">
+    <div class="form">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked">Remember me
+    </div>
+
+    <div class="form" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+</form>
 </div><!-- container -->
-<div><h2>If you like to view all my recipes, please log in.</h2></div>
+
+
+
 <div class="social_icon">
   <a href="https://www.facebook.com/chuimimi"><img src="./images/FB.jpg" width="50"/></a>
   <a href="#"><img src="./images/Instagram.jpg" width="50"/></a>
@@ -86,5 +95,6 @@ Instructions:<br>
 <div class="footer">
    <b>&copy; Mimi Chui Hanaka</b>
    </div>
+<script src="js/loginbox.js"></script> <!-- Gem jQuery -->
 </body>
 </html>
