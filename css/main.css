@@ -672,7 +672,7 @@ iframe {
 
     span.psw {
         display: block;
-        float: none;
+        float: right;
     }
     .cancelbtn {
         width: 100%;
