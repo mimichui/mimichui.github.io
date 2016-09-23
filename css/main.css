@@ -15,6 +15,10 @@ iframe {
 	height: 10px;
     width:100%;  
 }
+.topright {
+	float: right;
+	margin-top: -55px;
+}
 .top_nav{
 	height:40px;
 	padding:5px;
@@ -197,6 +201,8 @@ html {
 	margin:3%;
 	padding:0;
 	list-style:none;
+	font-family: arial;
+	font-size: 14px;
 	float:center;
 	margin-top:40px;
 }
@@ -214,13 +220,13 @@ html {
 	}
 	
 	#filters li span.active {
-		background: #e95a44;
+		background: #789051;
 		color:#fff;
 	}
   
 #portfoliolist .portfolio {
 	width:25%;
-	margin:0%;
+	margin-bottom: -4px;
 	display:none;
 	float:left;
 	overflow:hidden;
@@ -229,7 +235,7 @@ html {
 	.portfolio-wrapper {
 		overflow:hidden;
 		position: relative !important;
-		background: #000000;
+		background: #FFFFFF;
 		cursor:pointer;
 	}
 
@@ -245,7 +251,9 @@ html {
 		position: absolute;
 		width: 100%;
 		height:40px;
-		bottom:-40px;
+		bottom:-45px;
+		font-family: arial;
+		font-size: 14px;
     -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 0.3);
     transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 0.3);
 	}
@@ -267,6 +275,7 @@ html {
 			
 			.portfolio .text-category {
 				display:block;
+				font-family: arial;
 				font-size:9px;
 			}
 	
@@ -277,6 +286,110 @@ html {
     top:-30px;
   }  
 
+  /* Bordered form */
+form {
+	margin: 10px;
+	padding: 10px;
+	max-width: 600px;
+	width: 100%;
+    border: 10px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #789051;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	max-width: 100px;
+    width: 100%;
+	font-family: arial;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #330000;
+	font-family: arial;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+	font-family: arial;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+}
+  
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
 h2 {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 18px; margin: 40px;
@@ -285,7 +398,7 @@ p {
 	font-family: Calibri;
 	color: #800000;
 	font-size: 16px;
-	margin: 30px 0px 0px 60px;
+	margin: 0px 0px 0px 40px;
 }
 iframe {
 	width: 960px;
@@ -374,11 +487,14 @@ p {
 	font-family: Calibri;
 	color: #800000;
 	font-size: 14px;
-	margin: 30px 0px 0px 60px;
+	margin: 0px 0px 0px 30px;
 }
 iframe {
 	width: 620px;
 	height: 348.75px;
+}
+#filters {
+	font-size: 12px;
 }
 .top_nav{
 	height:40px;
@@ -467,12 +583,18 @@ p {
 	font-family: Calibri;
 	color: #800000;
 	font-size: 12px;
-	margin: 30px 0px 0px 60px;
+	margin: 0px 0px 0px 20px;
 }
 iframe {
 	width: 345px;
 	height: 194.0625px;
 }
+#filters {
+	font-size: 12px;
+}
+.portfolio .label {
+		font-size: 10px;
+	}
 .top_nav{
 	height:40px;
 	padding:2px;
@@ -546,6 +668,14 @@ iframe {
 	max-width: 380px;
 	width:100%;
 }
+
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
 }
 
 /* #Clearing */
