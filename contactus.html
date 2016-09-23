@@ -6,7 +6,10 @@
 <link rel="stylesheet" type="text/css" href="./css/main.css"/>
 </head>
 <body>
-  <h1>Mimi Chui Hanaka</h1>
+<h1>Mimi Chui Hanaka</h1>
+ <div class="topright">
+ <button onclick="document.getElementById('id01').style.display='block'">Log in</button>
+ </div>
 <div class="top_nav">
     <nav class="menu">
         <ul class="clearfix">
@@ -15,21 +18,66 @@
             <li><a href="./cooking.html">COOKING</a></li>
             <li><a href="./gallery.html">GALLERY</a></li>
             <li><a href="./contactus.html">CONTACT</a></li>
+			
         </ul>
     </nav>
 </div>
 
-		<h2>Please feel free to leave your comments here.  I'll get back to you shortly.</h2>
- <div class="form">
- <form action="contactus.php" method="post">
-    <p>Name:
-    <input type="text" name="text" value="Name"></p>
-	<p>Email:
-	<input type="email" name="email" value="Email"></p>
-    <p>Comments:
-	<textarea name="" rows="1" cols="30"></textarea></p>
-    <p><input type="submit"></p>
+		<h2>Please feel free to sign up and leave your comments here.  I'll get back to you shortly.</h2>
+		
+		<form class="modal-content animate" action="contactus.php">
+    <div class="form">
+	
+	<label><b>Email</b></label>
+      <input type="text" placeholder="Enter email" name="email" required>
+	  
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+	  <label><b>Comments</b></label>
+      <input type="text" placeholder="Comments" name="comments">
+	  
+      <button type="submit">Sign up</button>
+      <input type="checkbox" checked="checked">Remember me
+    </div>
+
+    <div class="form" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+
+		
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="contactus.php">
+    <div class="form">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked">Remember me
+    </div>
+
+    <div class="form" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
 </form>
+</div><!-- container -->
+
 </div>
 <div class="social_icon">
   <a href="https://www.facebook.com/chuimimi"><img src="./images/FB.jpg" width="50"/></a>
@@ -40,5 +88,6 @@
 <div class="footer">
    <b>&copy; Mimi Chui Hanaka</b>
    </div>
+<script src="js/loginbox.js"></script> <!-- Gem jQuery -->
 </body>
 </html>
