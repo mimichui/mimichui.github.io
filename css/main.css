@@ -2,7 +2,7 @@ h1{
 	font-family: Calibri, arial, verdana; 
 	font-size: 30px; 
 	color: #800000;
-	margin: 0px 20px 10px 0;
+	margin: 0px 0px 5px 0px;
 }
 h2 {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 22px; margin: 50px;
@@ -12,12 +12,12 @@ iframe {
 	height: 540px;
 }
 #header {
-	height: 10px;
+	height: 15px;
     width:100%;  
 }
 .topright {
 	float: right;
-	margin-top: -55px;
+	margin-top: -60px;
 }
 .top_nav{
 	height:40px;
