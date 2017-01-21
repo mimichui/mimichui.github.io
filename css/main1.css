@@ -83,7 +83,7 @@
     }
 }
  
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 560px) {
     .menu {
         position:relative;
         display:inline-block;
