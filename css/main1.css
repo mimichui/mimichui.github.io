@@ -87,7 +87,6 @@
     .menu {
         position:relative;
         display:inline-block;
-		     background:#303030;
     }
  
     .menu ul.active {
@@ -150,8 +149,8 @@
     }
  
     .search-form {
-        margin:5px 0px 0px 20px;
-        float:right;
+        margin:12px 0px 0px 20px;
+        float:left;
     }
  
     .search-form input {
