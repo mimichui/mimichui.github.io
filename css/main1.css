@@ -97,12 +97,10 @@
     }
  
     .menu ul {
-		width: 60%;
+		width: 40%;
         position:absolute;
-        top:120%;
-        left:0px;
+        top:70%;
         padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
         background:#303030;
 		text-decoration: none;
@@ -112,13 +110,8 @@
         width:0px;
         height:0px;
         position:absolute;
-        top:0%;
-        left:22px;
-        content:'';
-        transform:translate(0%, -100%);
-        border-left:7px solid transparent;
-        border-right:7px solid transparent;
-        border-bottom:7px solid #303030;
+   
+
     }
  
     .menu li {
