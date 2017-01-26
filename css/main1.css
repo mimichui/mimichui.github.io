@@ -123,11 +123,11 @@
     }
  
     .toggle-nav {
-        padding:15px;
+        padding:0px 20px 0px 20px;
         float:left;
         border-radius:3px;
         color:#777;
-        font-size:40px;
+        font-size:50px;
 		text-decoration: none;
     }
  
