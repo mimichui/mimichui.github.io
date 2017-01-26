@@ -127,7 +127,7 @@
         float:left;
         border-radius:3px;
         color:#777;
-        font-size:25px;
+        font-size:40px;
 		text-decoration: none;
     }
  
@@ -143,10 +143,3 @@
  
 }
 
-<android.support.v7.widget.Toolbar
-    android:id="@+id/toolbar"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:minHeight="?attr/actionBarSize"
-    android:background="?attr/colorPrimary"
-    app:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
