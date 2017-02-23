@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<head>
+<title>Mimi Chui Hanaka</title>
+<meta name="viewport" content="width=device-width" content="initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/main.css"/>
+</head>
+<body>
+  <h1><img src="./images/MimiLogo.JPG"></h1>
+   <div class="topright">
+ <button onclick="document.getElementById('id01').style.display='block'">Log in</button>
+ </div>
+<div class="top_nav">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./travel.html">TRAVEL</a></li>
+            <li><a href="./cooking.html">COOKING</a></li>
+            <li><a href="./gallery.html">GALLERY</a></li>
+            <li><a href="./contactus.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</div>
+
+ <div class="slider">
+      <div class="slide active-slide">
+            <div class="slide-copy">
+              <h1>My Hometown</h1>
+              <p>Hi!  My Name is Mimi.  I was born in Hong Kong.  I am able to speak fluent English and Chinese.  After graduating from college, I started to think there should be a place where I could explore and find excitement in my life.  Then I found BOSTON.  A city almost 8,000 miles away from my hometown.</p>
+            </div>
+            <div class="slide-img right">
+             <img src="./images/DSCN5486.JPG">
+            </div>
+        </div>      
+      <div class="slide">
+            <div class="slide-copy">
+              <h1>My Life in Boston</h1>
+              <p>When I first came to Boston, I found this city full of energy.  People were jogging and cycling along Charles River.  Young talented musicians were playing instruments in Harvard Square.  I immediately fell in love with it.  I started by taking an internship at a company in Cambridge.  Then the internship turned into a permanent job.</p>
+              
+            </div>
+            <div class="slide-img right">
+              <img src="./images/DSCN0584.JPG">
+            </div>
+          
+      </div>
+	   <div class="slide">
+            <div class="slide-copy">
+              <h1>My Hobbies</h1>
+              <p>I love hiking.  It's always a challenge to hike up those 4,000-foot mountains in New Hampshire.  I feel accomplished when I stand at the summit and look down.  Photography is one of my hobbies as well.  I can show people how I see this world.  Guess where I took this picture.</p>
+            </div>
+            <div class="slide-img right">
+              <img src="./images/DSCN1244.JPG">
+            </div>
+        </div>      
+     
+
+      <div class="slide">
+            <div class="slide-copy">
+              <h1>My Family</h1>
+              <p>Now, I settle down in Greater Boston with my family.  I love dogs, but my husband likes cats.  We are still deciding what type of pet we'll get (or may be, it will never happen).  We'll see!</p>
+            </div>
+            <div class="slide-img right">
+              <img src="./images/DSCN5816.JPG">
+            </div>
+          </div>
+        </div>      
+    </div>
+
+    <div class="slider-nav">
+      <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+    </div> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="contactus.php">
+    <div class="form">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked">Remember me
+    </div>
+
+    <div class="form" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+</form>
+</div><!-- container -->
+	
+	
+<div class="social_icon">
+  <a href="https://www.facebook.com/chuimimi"><img src="./images/FB.jpg" width="50"/></a>
+  <a href="#"><img src="./images/Instagram.jpg" width="50"/></a>
+  <a href="https://www.linkedin.com/in/mimi-chui-20400113?authType=&authToken=&trk=mp-allpost-aut-name"><img src="./images/LinkedIn.jpg" width="50"/></a>
+  <a href="mailto:mimi.hanaka@gmail.com"><img src="./images/Email.jpg" width="50"/></a>
+  </div>
+<div class="footer">
+   <b>&copy; Mimi Chui Hanaka</b>
+   </div>
+<script src="js/loginbox.js"></script> <!-- Gem jQuery -->
+</body>
+</html>
