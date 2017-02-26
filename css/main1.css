@@ -1,29 +1,20 @@
-
-.top_nav{
-	height:40px;
-	max-height: 10%;
-	width:99;
-	padding:5px;
-	margin:0px;
-	background-color:#000000;
-}
-
 .menu {
 	width:100%;
-    margin:0px;
+	background-color: #666666;
+	margin: 0px -10px -10px 0px;
+	padding: 1px;
 }
  
 .menu li {
     margin-right: 100px;
     list-style:none;
-    font-family:'Arial';
 	float: left;
-	
 }
  
 .menu a {
     transition:all linear 0.15s;
     color:#FFFFFF;
+	font-family:'Arial';
 	text-decoration: none;
 }
  
@@ -55,7 +46,7 @@ h1 {
 
 .slider {
 	position: relative;
-	width: 90%;
+	width: 100%;
 	height: 280px;
 	margin: 10px;
 	padding: 10px;
@@ -63,22 +54,18 @@ h1 {
 
 .slide {
 	position: absolute;
-	width: 90%;
+	width: 100%;
 	display: none;
 }
 
 .active-slide {
     display: block;
-	width:90%;
+	width:100%;
 }
 
 .slide-img right {
-	margin: 10px;
-	padding: 10px;
 	max-width: 100%;
-    height: auto;
-	float: right;
-
+	height: auto;
 }
 
 .slide-copy{
@@ -89,7 +76,6 @@ h1 {
 	font-size: 20px;
 	font-family: calibri, arial;
 }
-
 
 .slider-nav {
   text-align: center;
@@ -128,22 +114,82 @@ h1 {
   color: #363636;
 }
 
+//gallery//
 
-@media (max-width: 768px) {
-
+html {
+  overflow-y: scroll;
 }
 
-@media (max-width: 732px) {
-
+.container { 
+	position: relative;
+	max-width:100%;
+	width: 1280px;
 }
 
-@media (max-width: 640px) {
+#filters {
+	margin:3%;
+	padding:0;
+	list-style:none;
+	font-family: arial;
+	font-size: 14px;
+	float:center;
+	margin-top:40px;
+}
+
+#filters li {
+		float:left;
+	}
+	
+#filters li span {
+		display: block;
+		padding:10px 20px;		
+		text-decoration:none;
+		color:#666;
+		cursor: pointer;
+	}
+	
+#filters li span.active {
+		background: #789051;
+		color:#fff;
+	}
+  
+   
+#portfoliolist .portfolio {
+	width:25%;
+	margin-bottom: -5px;
+	display:none;
+	float:left;
+	overflow:hidden;
+}
+
+	.portfolio-wrapper {
+		overflow:hidden;
+		position: relative;
+		background: #FFFFFF;
+		cursor:pointer;
+	}
+	
+@media (max-width: 1200px) {
+.slide-copy{
+	width: 50%;
+}
+}	
+	
+	
+@media (max-width: 960px) {
+.slide-copy{
+	width: 40%;
+	font-size: 16px;
+}
+}
+
+@media (max-width: 800px) {
 .slider {
 	height: 520px;
 	margin: 10px;
 }
 .slide-copy{
-	width: 100%;
+	width: 80%;
 }
 }
 
