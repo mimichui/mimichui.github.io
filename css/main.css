@@ -1,6 +1,14 @@
+h1{
+	height: 20px;
+}
 
+h1 img {
+	max-width: 100%;
+	height: auto;
+	width: 230px;
+}
 h2 {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #800000; font-size: 22px; margin: 50px;
+	font-family: Calibri; color: #666666; font-size: 20px; margin: 30px;
 }
 iframe {
 	width: 960px;

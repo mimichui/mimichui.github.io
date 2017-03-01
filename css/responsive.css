@@ -14,6 +14,34 @@
 .menu > ul > li > a {
 	padding:0px 25px;
 }
+
+.slider {
+  max-width: 640px;
+  height: 280px;
+}
+.slide-copy {
+  max-width: 640px;
+  width:45%;
+  margin-top: 0px;
+  margin-left: -30px;
+  margin-right: 5px;
+}
+.slide-copy h1 {
+  font-size: 18px;
+}
+.slide-copy p {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.slide-img right{
+	max-width:55%;
+	width: 320px;
+	height: auto;
+}
+iframe {
+	width: 620px;
+	height: auto;
+}
 }
 
 @media only screen and (max-width: 360px) {
@@ -25,5 +53,33 @@
 }
 .menu > ul > li > a {
 	padding:0px 8px;
+}
+.slider {
+  max-width: 360px;
+  height: 450px;
+}
+.slide-copy {
+  max-width: 360px;
+  width:100%;
+  margin-top: 0px;
+  margin-left: -30px;
+  margin-right: 3px;
+}
+.slide-copy h1 {
+  font-size: 16px;
+  margin-top: 0px;
+}
+.slide-copy p {
+  font-size: 12px;
+  margin-top: 15px;
+}
+.slide-img right{
+	max-width:55%;
+	width: 360px;
+	height: auto;
+}
+iframe {
+	width: 340px;
+	height: auto;
 }
 }
