@@ -8,8 +8,14 @@ h1 img {
 	width: 230px;
 }
 h2 {
-	font-family: 'Calibri'; color: #666666; font-size: 22px; margin: 30px;
+  color: #363636;  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 56px;
 }
+
 iframe {
 	width: 960px;
 	height: 540px;
