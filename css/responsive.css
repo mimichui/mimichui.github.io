@@ -1,4 +1,7 @@
 @media only screen and (max-width: 840px) {
+.top_nav{
+	height:34px;
+}
 .menu > ul > li {
     font-size:14px;
 }
