@@ -45,8 +45,15 @@ iframe {
 p {
   font-size: 14px;
   line-height: 1.75em;
-  margin: 50px 0px 0px 30px;
+  margin: 10px 0px 0px 30px;
 }
+.portfolio .label {
+		font-size: 10px;
+	}
+	
+.portfolio .label-bg {
+			width: 100%;
+		}
 }
 
 
@@ -92,6 +99,13 @@ iframe {
 p {
   font-size: 10px;
   line-height: 1.75em;
-  margin: 50px 0px 0px 30px;
+  margin: 10px 0px 0px 30px;
 }
+
+.portfolio .label {
+		font-size: 10px;
+	}
+.portfolio .label-bg {
+			width: 100%;
+		}
 }
