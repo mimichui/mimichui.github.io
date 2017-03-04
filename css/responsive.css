@@ -1,20 +1,9 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 680px) {
 .menu > ul > li {
-    font-size:18px;
+    font-size:14px;
 }
 .menu > ul > li > a {
-	padding:0px 35px;
-}
-}
-
-
-
-@media only screen and (max-width: 640px) {
-.menu > ul > li {
-    font-size:16px;
-}
-.menu > ul > li > a {
-	padding:0px 25px;
+	padding:0px 20px;
 }
 
 .slider {
@@ -53,10 +42,10 @@ iframe {
 	height:34px;
 }
 .menu > ul > li {
-    font-size:12px;
+    font-size:13px;
 }
 .menu > ul > li > a {
-	padding:0px 8px;
+	padding:0px 14px;
 }
 .slider {
   max-width: 480px;
@@ -78,11 +67,7 @@ iframe {
   font-size: 12px;
   margin-top: 15px;
 }
-.slide-img right{
-	max-width:100%;
-	width: 480px;
-	height: auto;
-}
+
 iframe {
 	max-width: 100%;
 	width: 480px;
