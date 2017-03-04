@@ -8,9 +8,9 @@ html {
 
 .container { 
 	position: relative;
-	max-width:100%;
-	width: 1280px;
-	margin: 10px 10px 10px 10px;
+	width:100%;
+	margin: 0px;
+	max-width: 1333px;
 }
  
 #filters {
@@ -75,7 +75,7 @@ html {
 
 		.portfolio .label-bg {
 			background: #e95a44;
-			width: 100%;
+			width: 96%;
 			height:100%;
 			position: absolute;
 			top:0;
