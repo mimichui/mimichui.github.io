@@ -1,4 +1,4 @@
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 840px) {
 .menu > ul > li {
     font-size:14px;
 }
@@ -7,11 +7,11 @@
 }
 
 .slider {
-  max-width: 640px;
+  max-width: 840px;
   height: 280px;
 }
 .slide-copy {
-  max-width: 640px;
+  max-width: 840px;
   width:45%;
   margin-top: 0px;
   margin-left: -30px;
@@ -45,15 +45,14 @@ iframe {
     font-size:13px;
 }
 .menu > ul > li > a {
-	padding:0px 14px;
+	padding:0px 10px;
 }
 .slider {
   max-width: 480px;
   height: 450px;
 }
 .slide-copy {
-  display: none;
-  max-width: 480px;
+  max-width: 414px;
   width:100%;
   margin-top: 0px;
   margin-left: -30px;
@@ -70,7 +69,7 @@ iframe {
 
 iframe {
 	max-width: 100%;
-	width: 480px;
+	width: 414px;
 	height: 270px;
 }
 }
