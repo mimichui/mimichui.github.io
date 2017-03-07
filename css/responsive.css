@@ -83,6 +83,27 @@ p {
 }
 }
 
+@media only screen and (max-width: 568px) {
+.slider {
+  max-width: 568px;
+  height: 470px;
+}
+.slide-copy {
+  max-width: 568px;
+  width:100%;
+}
+
+.slide-copy h1 {
+  font-size: 16px;
+}
+.slide-copy p {
+  font-size: 12px;
+}
+.slide-img right{
+	max-width:100%;
+	height: auto;
+}
+}
 @media only screen and (max-width: 540px) {
 .menu > ul > li {
     font-size:13px;
@@ -164,4 +185,15 @@ p {
 .portfolio .label-bg {
 			width: 100%;
 		}
+}
+
+@media only screen and (max-width: 340px) {
+.slider {
+  max-width: 340px;
+  height: 500px;
+}
+.slide-copy {
+  max-width: 340px;
+  width:100%;
+}
 }
