@@ -95,6 +95,17 @@ p {
 }
 }
 
+@media only screen and (max-width: 632px) {
+	.slide-copy {
+  max-width: 632px;
+  width:80%;
+}
+.slider {
+  max-width: 632px;
+  height: 470px;
+}
+}
+
 @media only screen and (max-width: 568px) {
 .slider {
   max-width: 568px;
@@ -199,13 +210,19 @@ p {
 		}
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 360px) {
+	.menu > ul > li {
+    font-size:10px;
+}
+.menu > ul > li > a {
+	padding:0px 6px;
+}
 .slider {
-  max-width: 340px;
+  max-width: 360px;
   height: 500px;
 }
 .slide-copy {
-  max-width: 340px;
+  max-width: 360px;
   width:100%;
 }
 }
