@@ -51,8 +51,8 @@ h2 {
 	height: auto;
 }
 iframe {
-	width: 620px;
-	height: 348.75px;
+	width: 860px;
+	height: 483.75px;
 }
 p {
   font-size: 14px;
@@ -93,6 +93,11 @@ p {
 	width: 200px;
 	height: auto;
 }
+iframe {
+	max-width: 100%;
+	width: 754px;
+	height: 414.125px;
+}
 }
 
 @media only screen and (max-width: 632px) {
@@ -103,6 +108,11 @@ p {
 .slider {
   max-width: 632px;
   height: 470px;
+}
+iframe {
+	max-width: 100%;
+	width: 632px;
+	height: 355.5px;
 }
 }
 
@@ -125,6 +135,11 @@ p {
 .slide-img right{
 	max-width:100%;
 	height: auto;
+}
+iframe {
+	max-width: 100%;
+	width: 568px;
+	height: 319.5px;
 }
 }
 @media only screen and (max-width: 540px) {
@@ -155,6 +170,11 @@ p {
 	max-width:100%;
 	width: 200px;
 	height: auto;
+}
+iframe {
+	max-width: 100%;
+	width: 540px;
+	height: 307.5px;
 }
 }
 
@@ -225,4 +245,10 @@ p {
   max-width: 360px;
   width:100%;
 }
+iframe {
+	max-width: 100%;
+	width: 360px;
+	height: 202.5px;
+}
+
 }
