@@ -64,7 +64,7 @@ html {
 	.portfolio .label {
 		position: absolute;
 		width: 100%;
-		height:35px;
+		height:32px;
 		bottom:-48px;
 		font-family: arial;
 		font-size: 14px;
@@ -95,7 +95,7 @@ html {
 			}
 	
 	.portfolio:hover .label {
-    bottom:0;
+    bottom: 4px;
   }
 	.portfolio:hover img {
     top:-30px;
