@@ -72,11 +72,24 @@ iframe {
     background:#666666;
 }
  
+.cookingcontainer{
+  width: 100%;
+}
 
+.cookingleft{
+  width: 50%;
+}
 
+.cookingright{
+  width: 45%;
+  float: right;
+  padding: 10px 10px 10px 10px;
+  background-color: beige;
+}
 .social_icon {
 	width:100%;
 	text-align:right;
+  float:left;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	transition: all 0.3s linear;
@@ -84,6 +97,7 @@ iframe {
 .footer {
 	width: 100%;
 	text-align:center;
+  float: left;
 	font-size:20px;
 	border-top-color:#000000;
 	border-top-style:solid;
