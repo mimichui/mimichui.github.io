@@ -12,8 +12,8 @@ var dragndrop = (function() {
 
   function moveStart(e) {
     whichArt = e.target;
-    myX = e.offsetX === undefined ? e.layerX : e.offsetX;
-    myY = e.offsetY === undefined ? e.layerY : e.offsetY;
+    myX = e.offsetX;
+    myY = e.offsetY;
     resetZ();
     whichArt.style.zIndex = 10;
   }
