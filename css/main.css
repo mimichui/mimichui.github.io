@@ -77,12 +77,12 @@ iframe {
 }
 
 .cookingleft{
-  width: 50%;
+  width: 70%;
 }
 
 .cookingright{
-  width: 45%;
-  float: right;
+  width: 25%;
+  float: left;
   padding: 10px 10px 10px 10px;
   background-color: beige;
 }
