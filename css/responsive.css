@@ -22,13 +22,41 @@
 }
 h2 {
   font-size: 16px;
-  margin-left: 25px;
+  margin-left: 30px;
 }
 
 p {
   font-size: 14px;
   line-height: 1.75em;
   margin: 10px 0px 0px 30px;
+}
+.portfolio .label {
+		font-size: 10px;
+	}
+
+.portfolio .label-bg {
+			width: 100%;
+		}
+}
+@media only screen and (max-width: 393px) {
+.top_nav{
+	height:34px;
+}
+.menu > ul > li {
+    font-size:14px;
+}
+.menu > ul > li > a {
+	padding:0px 20px;
+}
+h2 {
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75em;
+  margin: 10px 0px 0px 20px;
 }
 .portfolio .label {
 		font-size: 10px;
