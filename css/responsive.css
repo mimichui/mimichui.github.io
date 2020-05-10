@@ -27,7 +27,7 @@ h2 {
 
 .slider {
   max-width: 840px;
-  height: 300px;
+  height: auto;
 }
 .slide-copy {
   max-width: 840px;
@@ -46,13 +46,13 @@ h2 {
   margin: 15px 6px 10px 50px;
 }
 .slide-img right{
-	max-width:55%;
-	width: 300px;
+	max-width:35%;
+	width: 23px;
 	height: auto;
 }
 iframe {
 	width: 860px;
-	height: 400px;
+	height: 300px;
 }
 p {
   font-size: 14px;
