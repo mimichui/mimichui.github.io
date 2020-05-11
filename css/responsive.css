@@ -38,7 +38,7 @@ p {
 			width: 100%;
 		}
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 360px) {
 .top_nav{
 	height:34px;
 }
@@ -46,7 +46,7 @@ p {
     font-size:14px;
 }
 .menu > ul > li > a {
-	padding:0px 20px;
+	padding:0px 15px;
 }
 h2 {
   font-size: 16px;
@@ -59,7 +59,7 @@ p {
   margin: 10px 0px 0px 20px;
 }
 .portfolio .label {
-		font-size: 9px;
+		font-size: 8px;
 	}
 
 .portfolio .label-bg {
