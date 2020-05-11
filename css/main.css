@@ -8,7 +8,7 @@ h1 img {
 	width: 230px;
 }
 h2 {
-  color: #363636;  
+  color: #363636;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 22px;
@@ -33,28 +33,28 @@ iframe {
 
 .menu {
     max-width:1333px;
-	width:100%;
+		width:100%;
     margin-top:-5px;
-	margin-left: -20px;
+		margin-left: -20px;
 }
- 
+
 .menu li {
     list-style:none;
     font-family:'Calibri';
 }
- 
+
 .menu a {
     transition:all linear 0.15s;
     color:#FFFFFF;
 	text-decoration: none;
 }
- 
+
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#be5b70;
 }
 
- 
+
 /*----- Top Level -----*/
 .menu > ul > li {
     float:left;
@@ -62,16 +62,16 @@ iframe {
     position:relative;
     font-size:20px;
 }
- 
+
 .menu > ul > li > a {
     display:inline-block;
 	padding:0px 70px;
 }
- 
+
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
     background:#666666;
 }
- 
+
 .cookingcontainer{
   width: 100%;
 }
@@ -102,7 +102,7 @@ iframe {
 	border-top-color:#000000;
 	border-top-style:solid;
 	}
-	
+
 /* Carousel */
 
 .slider {
@@ -135,7 +135,7 @@ iframe {
   margin-right: 30px;
 }
 .slide-copy h1 {
-  color: #363636;  
+  color: #363636;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 22px;
@@ -274,7 +274,7 @@ span.psw {
     /* Position it in the top right corner outside of the modal */
     position: absolute;
     right: 25px;
-    top: 0; 
+    top: 0;
     color: #000;
     font-size: 35px;
     font-weight: bold;
@@ -294,12 +294,12 @@ span.psw {
 }
 
 @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
+    from {-webkit-transform: scale(0)}
     to {-webkit-transform: scale(1)}
 }
 
 @keyframes animatezoom {
-    from {transform: scale(0)} 
+    from {transform: scale(0)}
     to {transform: scale(1)}
 }
 }

@@ -2,16 +2,7 @@
 .menu > ul > li > a {
 	padding:0px 40px;
 }
-.slide-copy {
-  width:45%;
-}
-
-
-}
-
-
-@media only screen and (max-width: 860px) {
-.top_nav{
+.top_nav {
 	height:34px;
 }
 .menu > ul > li {
@@ -32,34 +23,6 @@ p {
 }
 .portfolio .label {
 		font-size: 10px;
-	}
-
-.portfolio .label-bg {
-			width: 100%;
-		}
-}
-@media only screen and (max-width: 400px) {
-.top_nav{
-	height:34px;
-}
-.menu > ul > li {
-    font-size:12px;
-}
-.menu > ul > li > a {
-	padding:0px 8px;
-}
-h2 {
-  font-size: 12px;
-  margin-left: 10px;
-}
-
-p {
-  font-size: 12px;
-  line-height: 1.75em;
-  margin: 10px 0px 0px 20px;
-}
-.portfolio .label {
-		font-size: 8px;
 	}
 
 .portfolio .label-bg {
