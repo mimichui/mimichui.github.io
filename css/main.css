@@ -72,20 +72,6 @@ iframe {
     background:#666666;
 }
 
-.cookingcontainer{
-  width: 100%;
-}
-
-.cookingleft{
-  width: 70%;
-}
-
-.cookingright{
-  width: 25%;
-  float: left;
-  padding: 10px 10px 10px 10px;
-  background-color: beige;
-}
 .social_icon {
 	width:100%;
 	text-align:right;
