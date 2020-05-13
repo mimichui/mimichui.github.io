@@ -29,3 +29,35 @@ p {
 			width: 100%;
 		}
 }
+
+@media only screen and (max-width: 443px) {
+.menu > ul > li > a {
+	padding:0px 30px;
+}
+.top_nav {
+	height:34px;
+}
+.menu > ul > li {
+    font-size:14px;
+}
+.menu > ul > li > a {
+	padding:0px 10px;
+}
+h2 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75em;
+  margin: 10px 0px 0px 10px;
+}
+.portfolio .label {
+		font-size: 8px;
+	}
+
+.portfolio .label-bg {
+			width: 100%;
+		}
+}
