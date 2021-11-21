@@ -32,13 +32,13 @@ p {
 
 @media only screen and (max-width: 443px) {
 .menu > ul > li > a {
-	padding:0px 30px;
+	padding:0px 25px;
 }
 .top_nav {
 	height:34px;
 }
 .menu > ul > li {
-    font-size:14px;
+    font-size:12px;
 }
 .menu > ul > li > a {
 	padding:0px 10px;
